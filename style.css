@@ -63,11 +63,10 @@ p {
 }
 
 .materia.aprobada {
-    background-color: #e8d6f2; /* Morado pastel */
+    background-color: #e8d6f2; /* morado pastel */
     color: #5c3c8c;
     text-decoration: line-through;
 }
-
 
 
 

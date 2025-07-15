@@ -18,14 +18,15 @@ p {
 }
 
 #malla-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
     gap: 20px;
-    overflow-x: auto;
-    padding-bottom: 20px;
+    justify-items: center;
 }
 
 .semestre {
-    min-width: 220px;
+    width: 100%;
+    max-width: 300px;
     background-color: #fce6ea;
     border: 2px solid #E6B2BA;
     border-radius: 10px;
@@ -62,9 +63,9 @@ p {
 }
 
 .materia.aprobada {
-    background-color: #d7f9d7;
-    color: #388e3c;
+    background-color: #e8d6f2; /* morado pastel */
+    color: #5c3c8c;
     text-decoration: line-through;
 }
 
-
+ 

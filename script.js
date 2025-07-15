@@ -1,3 +1,4 @@
+// Lista de materias y prerrequisitos
 const materias = [
     {
         semestre: "Primer Semestre",
@@ -98,13 +99,6 @@ function cargarEstado() {
     return JSON.parse(localStorage.getItem('estadoMaterias') || '[]');
 }
 
-function reiniciarMalla() {
-    if (confirm("¿Deseas reiniciar tu progreso?")) {
-        localStorage.removeItem('estadoMaterias');
-        location.reload();
-    }
-}
-
 function estaAprobada(nombre) {
     return document.querySelector(`[data-nombre="${nombre}"]`)?.classList.contains('aprobada');
 }
@@ -147,6 +141,7 @@ function crearMalla() {
 }
 
 window.onload = crearMalla;
+
 
 
 

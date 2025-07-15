@@ -1,4 +1,3 @@
-// Lista de materias y prerrequisitos
 const materias = [
     {
         semestre: "Primer Semestre",

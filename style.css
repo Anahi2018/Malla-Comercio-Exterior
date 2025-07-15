@@ -1,7 +1,7 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #C599B6;
-    color: #E6B2BA;
+    font-family: 'Olympic', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #E493B3;
+    color: #CB80AB;
     margin: 0;
     padding: 20px;
 }
@@ -19,7 +19,7 @@ p {
 
 #malla-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
     justify-items: center;
 }
@@ -27,15 +27,15 @@ p {
 .semestre {
     width: 100%;
     max-width: 300px;
-    background-color: #FFCCEA;
-    border: 2px solid #F0C1E1;
+    background-color: #F0C1E1;
+    border: 2px solid #E6B2BA;
     border-radius: 10px;
     padding: 15px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 }
 
 .semestre h2 {
-    color: #E6B2BA;
+    color: #E493B3;
     text-align: center;
     margin-top: 0;
     font-size: 1.2em;
@@ -44,26 +44,29 @@ p {
 .materia {
     padding: 10px;
     margin: 8px 0;
-    border: 1px solid #E1AFD1;
-    background-color: #FFCEFE;
+    border: 1px solid #E6B2BA;
+    background-color: #F0C1E1;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
     text-align: center;
+    font-weight: 600;
+    color: #6B3A56;
 }
 
 .materia:hover {
-    background-color: #FFCEFE;
+    background-color: #F5CBCB;
 }
 
 .materia.bloqueada {
-    background-color: #CB80AB;
-    color: #E8A0BF;
+    background-color: #D9A299;
+    color: #DCC5B2;
     pointer-events: none;
 }
 
 .materia.aprobada {
-    background-color: #EA8FEA; /* morado pastel */
-    color: #D77FA1;
+    background-color: #C599B6; /* morado pastel */
+    color: #CB9DF0;
     text-decoration: line-through;
 }
+

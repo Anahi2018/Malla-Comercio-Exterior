@@ -39,7 +39,7 @@ const materias = [
             { nombre: "Estadística aplicada al mercado", prerequisitos: ["Estadística"] },
             { nombre: "Macroeconomía", prerequisitos: ["Microeconomía", "Estadística"] },
             { nombre: "Análisis de datos del comercio exterior", prerequisitos: ["Control aduanero y tributario de comercio exterior", "Perspectiva internacional de negociación"] },
-            { nombre: "Operaciones de comercio exterior avanzado", prerequisitos: ["Operaciones de comercio exterior básico", "Técniva aduanera I"] },
+            { nombre: "Operaciones de comercio exterior avanzado", prerequisitos: ["Operaciones de comercio exterior básico"] },
             { nombre: "Técnica aduanera II", prerequisitos: ["Técnica aduanera I"] }
         ]
     },

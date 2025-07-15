@@ -1,5 +1,5 @@
 body {
-    font-family: 'Olympic', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: ' Segoe UI ', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #E493B3;
     color: #CB80AB;
     margin: 0;
@@ -19,7 +19,7 @@ p {
 
 #malla-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
     gap: 20px;
     justify-items: center;
 }
@@ -50,8 +50,6 @@ p {
     cursor: pointer;
     transition: background-color 0.3s;
     text-align: center;
-    font-weight: 600;
-    color: #6B3A56;
 }
 
 .materia:hover {
@@ -70,3 +68,4 @@ p {
     text-decoration: line-through;
 }
 
+ 

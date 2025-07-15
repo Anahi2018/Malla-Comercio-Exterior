@@ -1,54 +1,72 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f8f8;
+    background-color: #fff0f3;
     color: #333;
     margin: 0;
     padding: 20px;
 }
 
 h1 {
-    color: #008B8B;
+    color: #E6B2BA;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#malla-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 20px;
+    justify-items: center;
 }
 
 .semestre {
-    border: 2px solid #20B2AA;
+    width: 100%;
+    max-width: 300px;
+    background-color: #fce6ea;
+    border: 2px solid #E6B2BA;
     border-radius: 10px;
     padding: 15px;
-    margin-bottom: 20px;
-    background-color: #e0f7f7;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 }
 
 .semestre h2 {
-    color: #008B8B;
+    color: #E6B2BA;
+    text-align: center;
     margin-top: 0;
+    font-size: 1.2em;
 }
 
 .materia {
     padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #bbb;
-    background-color: #ccf2f2;
+    margin: 8px 0;
+    border: 1px solid #d4a3ab;
+    background-color: #fff5f7;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    text-align: center;
 }
 
 .materia:hover {
-    background-color: #b2e0e0;
+    background-color: #fbdde2;
 }
 
 .materia.bloqueada {
-    background-color: #f5f5f5;
+    background-color: #eee;
     color: #aaa;
     pointer-events: none;
 }
 
 .materia.aprobada {
-    background-color: #d0ffd0;
+    background-color: #e8d6f2; /* morado pastel */
+    color: #5c3c8c;
     text-decoration: line-through;
-    color: #4caf50;
+
 }
 
 button {

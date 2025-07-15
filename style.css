@@ -1,71 +1,71 @@
 body {
-    font-family: ' Segoe UI ', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #E493B3;
-    color: #CB80AB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8f8;
+    color: #333;
     margin: 0;
     padding: 20px;
 }
 
 h1 {
-    color: #E6B2BA;
+    color: #008B8B;
     text-align: center;
-    margin-bottom: 20px;
-}
-
-p {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-#malla-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
-    gap: 20px;
-    justify-items: center;
+    margin-bottom: 30px;
 }
 
 .semestre {
-    width: 100%;
-    max-width: 300px;
-    background-color: #F0C1E1;
-    border: 2px solid #E6B2BA;
+    border: 2px solid #20B2AA;
     border-radius: 10px;
     padding: 15px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    background-color: #e0f7f7;
 }
 
 .semestre h2 {
-    color: #E493B3;
-    text-align: center;
+    color: #008B8B;
     margin-top: 0;
-    font-size: 1.2em;
 }
 
 .materia {
     padding: 10px;
-    margin: 8px 0;
-    border: 1px solid #E6B2BA;
-    background-color: #F0C1E1;
+    margin: 5px 0;
+    border: 1px solid #bbb;
+    background-color: #ccf2f2;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    text-align: center;
 }
 
 .materia:hover {
-    background-color: #F5CBCB;
+    background-color: #b2e0e0;
 }
 
 .materia.bloqueada {
-    background-color: #D9A299;
-    color: #DCC5B2;
+    background-color: #f5f5f5;
+    color: #aaa;
     pointer-events: none;
 }
 
 .materia.aprobada {
-    background-color: #C599B6; /* morado pastel */
-    color: #CB9DF0;
+    background-color: #d0ffd0;
     text-decoration: line-through;
+    color: #4caf50;
 }
+
+button {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #008B8B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #006666;
+}
+
 
  

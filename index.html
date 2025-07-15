@@ -2,13 +2,17 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Malla Interactiva Comercio Exterior ESPE</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Malla Interactiva - Comercio Exterior (ESPE)</h1>
-    <div id="malla-container"></div>
-    <button onclick="reiniciarMalla()">🔄 Reiniciar Progreso</button>
+    <main>
+        <h1>Malla Interactiva - Comercio Exterior (ESPE)</h1>
+        <p>Haz clic en una materia para marcarla como <strong>aprobada</strong>. Si es un pre-requisito de otra, se desbloqueará automáticamente.</p>
+        <div id="malla-container"></div>
+        <button onclick="reiniciarMalla()">🔄 Reiniciar Progreso</button>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>

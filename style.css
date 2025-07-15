@@ -63,27 +63,13 @@ p {
 }
 
 .materia.aprobada {
-    background-color: #e8d6f2; /* morado pastel */
+    background-color: #e8d6f2; /* Morado pastel */
     color: #5c3c8c;
     text-decoration: line-through;
-
 }
 
-button {
-    display: block;
-    margin: 30px auto;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #008B8B;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
-button:hover {
-    background-color: #006666;
-}
+
 
 
  

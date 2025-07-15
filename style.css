@@ -1,5 +1,5 @@
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #E493B3;
     color: #CB80AB;
     margin: 0;
@@ -19,7 +19,7 @@ p {
 
 #malla-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
     gap: 20px;
     justify-items: center;
 }
@@ -45,17 +45,15 @@ p {
     padding: 10px;
     margin: 8px 0;
     border: 1px solid #E6B2BA;
-    background-color: #E6D1F2; /* morado pastel bajito */
+    background-color: #F0C1E1;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
     text-align: center;
-    font-weight: 600;
-    color: #6B3A56;
 }
 
 .materia:hover {
-    background-color: #D4B0F0; /* un morado un poco más fuerte al pasar mouse */
+    background-color: #F5CBCB;
 }
 
 .materia.bloqueada {
@@ -69,3 +67,4 @@ p {
     color: #CB9DF0;
     text-decoration: line-through;
 }
+
